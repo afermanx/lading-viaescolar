@@ -3,25 +3,25 @@
 @section('titleHeader','Clientes')
 @section('content')
 <!-- Fact Start -->
-<div class="fact">
+<div class="fact ">
     <div class="container-fluid">
-        <div class="row counters">
-            <div class="col-md-6 fact-left wow slideInLeft">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="fact-icon">
+        <div class="row counters text-center">
+            <div class="col-md-6 fact-left wow slideInLeft ">
+                <div class="row ">
+                    <div class="col-6 ">
+                        {{-- <div class="fact-icon">
                             <i class="flaticon-worker"></i>
-                        </div>
-                        <div class="fact-text">
+                        </div> --}}
+                        <div class="fact-text text-center">
                             <h2 data-toggle="counter-up">34.830</h2>
                             <p>Alunos</p>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="fact-icon">
+                        {{-- <div class="fact-icon">
                             <i class="flaticon-address"></i>
-                        </div>
-                        <div class="fact-text">
+                        </div> --}}
+                        <div class="fact-text text-center">
                             <h2 data-toggle="counter-up">1.418</h2>
                             <p>rotas</p>
                         </div>
@@ -31,19 +31,19 @@
             <div class="col-md-6 fact-right wow slideInRight">
                 <div class="row">
                     <div class="col-6">
-                        <div class="fact-icon" >
+                        {{-- <div class="fact-icon" >
                             <i class="flaticon-building"></i>
-                        </div>
-                        <div class="fact-text">
+                        </div> --}}
+                        <div class="fact-text text-center">
                             <h2 data-toggle="counter-up">1.567</h2>
                             <p>Ônibus</p>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="fact-icon">
+                        {{-- <div class="fact-icon">
                             <i class="flaticon-building"></i>
-                        </div>
-                        <div class="fact-text">
+                        </div> --}}
+                        <div class="fact-text text-center">
                             <h2 data-toggle="counter-up">48</h2>
                             <p>Prefeituras</p>
                         </div>

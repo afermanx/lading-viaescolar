@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-contact">
-                        <h2>Office Contact</h2>
-                        <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope"></i>info@example.com</p>
+                        <h2>Contato do escritório</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>2535 Rua Maringa, Ji Paraná, Rondônia </p>
+                        <p><i class="fa fa-phone-alt"></i>+055 (69) 3424-9142</p>
+                        <p><i class="fa fa-envelope"></i>contato@viaescolar.com</p>
                         <div class="footer-social">
                             {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
                             <a href="https://www.facebook.com/viaescolarbrasil/"><i class="fab fa-facebook-f"></i></a>
@@ -19,33 +19,35 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-link">
-                        <h2>Services Areas</h2>
-                        <a href="">Building Construction</a>
-                        <a href="">House Renovation</a>
+                        <h2>Áreas de Serviços</h2>
+                        <a href="">Transporte Escolar</a>
+                        {{-- <a href="">House Renovation</a>
                         <a href="">Architecture Design</a>
                         <a href="">Interior Design</a>
-                        <a href="">Painting</a>
+                        <a href="">Painting</a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-link">
-                        <h2>Useful Pages</h2>
-                        <a href="">About Us</a>
-                        <a href="">Contact Us</a>
-                        <a href="">Our Team</a>
-                        <a href="">Projects</a>
-                        <a href="">Testimonial</a>
+                        <h2>Páginas Úteis</h2>
+                        <a href="{{ route('site.about') }}">Quem Somos</a>
+                        <a href="{{ route('site.contact') }}">Contato</a>
+                        <a href="{{ route('site.functionalities') }}">Funcionalidades</a>
+                        {{-- <a href="">Projects</a> --}}
+                        {{-- <a href="">Testimonial</a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="newsletter">
-                        <h2>Newsletter</h2>
+                        <h2>Quer receber as novidades no seu e-mail?</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu
+                            Fica tranquilo, também odeio SPAM!
+
+                            Seu e-mail está seguro comigo. ❤️
                         </p>
                         <div class="form">
                             <input class="form-control" placeholder="Email here">
-                            <button class="btn">Submit</button>
+                            <button class="btn">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -53,8 +55,8 @@
         </div>
         <div class="container footer-menu">
             <div class="f-menu">
-                <a href="">Terms of use</a>
-                <a href="">Privacy policy</a>
+                <a href="">Termos de uso</a>
+                <a href="">Políticas de Privacidade</a>
                 <a href="">Cookies</a>
                 <a href="">Help</a>
                 <a href="">FQAs</a>
