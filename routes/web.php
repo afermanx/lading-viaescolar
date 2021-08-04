@@ -14,6 +14,7 @@ Route::namespace('Site')->group( function(){
 
 Route::namespace('Blog')->group( function(){
     Route::get('/blog', 'blogController@index')->name('site.blog');
+    Route::get('/noticia/{title}', 'blogController@news')->name('site.news');
 
 
 });
