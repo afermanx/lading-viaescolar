@@ -11,5 +11,10 @@ class blogController extends Controller
     public function index(Request $request){
         return view('Pages.blog.index');
     }
-  
+
+    public function detail(Request $request){
+        return view('Pages.blog.details');
+    }
+
+
 }

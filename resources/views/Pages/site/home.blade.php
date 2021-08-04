@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="blog-title">
                                     <h3>TCE - resultado da auditoria do transporte escolar</h3>
-                                    <a class="btn" href="">+</a>
+                                    <a class="btn" href="{{ route('site.detail') }}">+</a>
                                 </div>
                                 <div class="blog-meta">
                                     <p><a href="">20 de Julho 2020</a></p>
@@ -202,7 +202,7 @@
                                 </div>
                                 <div class="blog-title">
                                     <h3>FNDE Libera a Sexta Parcela do PNATE</h3>
-                                    <a class="btn" href="">+</a>
+                                    <a class="btn" href="{{ route('site.detail') }}">+</a>
                                 </div>
                                 <div class="blog-meta">
                                     <p><a href="">11 de Julho de 2020</a></p>
@@ -222,7 +222,7 @@
                                 </div>
                                 <div class="blog-title">
                                     <h3>Verificação de Transporte Deficiente em todo País</h3>
-                                    <a class="btn" href="">+</a>
+                                    <a class="btn" href="{{ route('site.detail') }}">+</a>
                                 </div>
                                 <div class="blog-meta">
                                     <p><a href="">2 de Julho de 2020</a></p>
