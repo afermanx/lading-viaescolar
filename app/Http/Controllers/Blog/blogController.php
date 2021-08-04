@@ -8,7 +8,7 @@ use PhpParser\Node\Stmt\Return_;
 
 class blogController extends Controller
 {
-    public function posts(Request $request){
-        return '';
+    public function index(Request $request){
+        return view('Pages.blog.index');
     }
 }

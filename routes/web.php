@@ -13,8 +13,7 @@ Route::namespace('Site')->group( function(){
 
 
 Route::namespace('Blog')->group( function(){
-
-    Route::get('/blog', 'blogController@posts')->name('site.blog');
+    Route::get('/blog', 'blogController@index')->name('site.blog');
 
 
 });
