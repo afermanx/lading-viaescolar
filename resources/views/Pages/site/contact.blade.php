@@ -31,7 +31,7 @@
                         <i class="flaticon-send-mail"></i>
                         <div class="contact-text">
                             <h2>Email</h2>
-                            <p>contato@contato@viaescolar.comr</p>
+                            <p>contato@viaescolar.com</p>
                         </div>
                     </div>
                 </div>
